@@ -1,0 +1,23 @@
+CREATE TABLE estabelecimento (
+  Nome varchar(50) DEFAULT NULL,
+  Descricao varchar(100) DEFAULT NULL,
+  horario_inicial time DEFAULT NULL,
+  horario_final time DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+INSERT INTO estabelecimento (Nome, Descricao, horario_inicial, horario_final)
+VALUES ('DCE - Diretório Central dos Estudantes', 'Lanchonete - Ao lado do bloco de medicina', '19:40:00', '20:30:00');
+
+INSERT INTO estabelecimento (Nome, Descricao, horario_inicial, horario_final)
+VALUES ('The Honest Burger', 'Lanchonete - No bloco azul', '19:00:00', '20:30:00');
+
+INSERT INTO estabelecimento (Nome, Descricao, horario_inicial, horario_final)
+VALUES ('Angra', 'Lanchonete - No bloco azul', '20:30:00', '21:00:00');
+
+INSERT INTO estabelecimento (Nome, Descricao, horario_inicial, horario_final)
+VALUES ('Tropical Banana', 'Restaurante de Comida Natural - No bloco azul', '17:50:00', '18:15:00');
+
+INSERT INTO estabelecimento (Nome, Descricao, horario_inicial, horario_final)
+VALUES ('Pizzaria Augusta', 'Delivery de batatas suíças - No bloco azul', '13:30:00', '21:50:00');
+
+INSERT INTO estabelecimento (Nome, Descricao, horario_inicial, horario_final)
+VALUES ('Guana Hari', 'Pastelaria - No bloco azul', '13:15:00', '19:00:00');
